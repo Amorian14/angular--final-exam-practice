@@ -8,5 +8,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./product-alerts.component.css']
 })
 export class ProductAlertsComponent {
+  @Input() product!: Product;
 
 }
